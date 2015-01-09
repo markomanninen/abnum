@@ -66,9 +66,8 @@ data['gamma'] = dict(letter=[u'γ'], name=u'γαμμα', segment='consonant', su
 data['delta'] = dict(letter=[u'δ'], name=u'δελτα', segment='consonant', subsegment='mute', transliteration=u'd', order=4)
 # epsilon:http://en.wiktionary.org/wiki/epsilon
 data['epsilon'] = dict(letter=[u'ε'], name=u'ε ψιλον', segment='vowel', subsegment='short', transliteration=u'e', order=5)
-# digamma/stigma/episemon/wau
-# http://en.wikipedia.org/wiki/Digamma
-data['digamma'] = dict(letter=[u'ϝ', u'ϛ'], name=u'διγαμμα', segment='numeral', subsegment='', transliteration=u'w', order=6)
+# digamma/stigma/episemon/wau:http://en.wikipedia.org/wiki/Digamma
+data['digamma'] = dict(letter=[u'ϛ'], name=u'διγαμμα', segment='numeral', subsegment='', transliteration=u'w', order=6)
 #data['stigma'] = dict(letter=[u'ϛ'], name=u'στιγμα', segment='numeral', transliteration=u'w')
 # zeta:http://en.wiktionary.org/wiki/ζῆτα
 data['zeta'] = dict(letter=[u'ζ'], name=u'ζητα', segment='consonant', subsegment='double', transliteration=u'z', order=7)
@@ -123,6 +122,27 @@ data['omega'] = dict(letter=[u'ω'], name=u'ω μεγα', segment='vowel', subse
 # http://www.jstor.org/stable/636031
 data['sampi'] = dict(letter=[u'ϡ', u'ͳ'], name=u'σαμπι', segment='numeral', subsegment='', transliteration=u'j', order=27)
 #data['disigma'] = dict(letter=[u'ϡ'], name=u'δισιγμα', segment='numeral', subsegment='', transliteration=u'j')
+
+data['alpha_m'] = dict(letter=[u'ạ'], name=u'σαμπι', segment='numeral', subsegment='', transliteration=u'ạ', order=28)
+# beta:http://en.wiktionary.org/wiki/βῆτα
+data['beta_m'] = dict(letter=[u'ḅ'], name=u'βητα', segment='numeral', subsegment='', transliteration=u'ḅ', order=29)
+# gamma:http://en.wiktionary.org/wiki/γάμμα
+data['gamma_m'] = dict(letter=[u'ġ'], name=u'γαμμα', segment='numeral', subsegment='', transliteration=u'ġ', order=30)
+# delta:http://en.wiktionary.org/wiki/δέλτα
+data['delta_m'] = dict(letter=[u'ḍ'], name=u'δελτα', segment='numeral', subsegment='', transliteration=u'ḍ', order=31)
+# epsilon:http://en.wiktionary.org/wiki/epsilon
+data['epsilon_m'] = dict(letter=[u'ė'], name=u'ε ψιλον', segment='numeral', subsegment='', transliteration=u'ė', order=32)
+# digamma/stigma/episemon/wau:http://en.wikipedia.org/wiki/Digamma
+data['digamma_m'] = dict(letter=[u'ċ'], name=u'διγαμμα', segment='numeral', subsegment='', transliteration=u'ċ', order=33)
+# zeta:http://en.wiktionary.org/wiki/ζῆτα
+data['zeta_m'] = dict(letter=[u'ị'], name=u'ζητα', segment='numeral', subsegment='', transliteration=u'ị', order=34)
+# eta:http://en.wiktionary.org/wiki/ἦτα
+data['eta_m'] = dict(letter=[u'ḥ'], name=u'ητα', segment='numeral', subsegment='', transliteration=u'ḥ', order=35)
+# theta:http://en.wiktionary.org/wiki/θῆτα
+data['theta_m'] = dict(letter=[u'ṭ'], name=u'θητα', segment='numeral', subsegment='', transliteration=u'ṭ', order=36)
+
+data['mu_m'] = dict(letter=[u'ṃ'], name=u'θητα', segment='numeral', subsegment='', transliteration=u'ṃ', order=37)
+
 
 r = romanizer(data)
 
