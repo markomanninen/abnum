@@ -5,4 +5,4 @@ Alphabetic numerals package including various letter value substituting systems 
 
 Notebooks for study and example:
 
-[Abnum use cases and background]()
+[Abnum use cases and background](https://github.com/markomanninen/abnum/blob/master/Abnum%20use%20cases%20and%20background.ipynb)
