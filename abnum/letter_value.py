@@ -22,7 +22,11 @@ data[greek] = (
 # letters from ι to ϙ (10 to 90)
 	[10, 'iota'], [20, 'kappa'], [30, 'lambda'], [40, 'mu'], [50, 'nu'], [60, 'xi'], [70, 'omicron'], [80, 'pi'], [90, 'qoppa'],
 # letters from ρ to ϡ (100 to 900)
-	[100, 'rho'], [200, 'sigma'], [300, 'tau'], [400, 'upsilon'], [500, 'phi'], [600, 'chi'], [700, 'psi'], [800, 'omega'], [900, 'sampi']
+	[100, 'rho'], [200, 'sigma'], [300, 'tau'], [400, 'upsilon'], [500, 'phi'], [600, 'chi'], [700, 'psi'], [800, 'omega'], [900, 'sampi'],
+# letters from ạ to ṭ (1000 to 9000)
+	[1000, 'alpha_m'], [2000, 'beta_m'], [3000, 'gamma_m'], [4000, 'delta_m'], [5000, 'epsilon_m'], [6000, 'digamma_m'], [7000, 'zeta_m'], [8000, 'eta_m'], [9000, 'theta_m'],
+# letters from ṃ to ? (10000 to ?)
+	[10000, 'mu_m'], 
 )
 
 data[hebrew] = (
