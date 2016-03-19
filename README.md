@@ -5,4 +5,6 @@ Alphabetic numerals package including various letter value substituting systems 
 
 Notebooks for study and example:
 
-[Abnum use cases and background](http://nbviewer.ipython.org/github/markomanninen/abnum/blob/master/Abnum%20use%20cases%20and%20background.ipynb)
+[Abnum use cases and background](Abnum%20use%20cases%20and%20background.ipynb)
+
+Attention! Python 3 version is available from: https://github.com/markomanninen/abnum3 
